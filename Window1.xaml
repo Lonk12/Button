@@ -1,0 +1,19 @@
+﻿<Window x:Class="Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="The Button of Mystery" Height="300" Width="300" Name="Button1" Background="White">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF0B3CA4" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Height="41" Margin="32,72,44,0" VerticalAlignment="Top" ContentStringFormat="" Content="Get rick rolled boi" Background="#FF04F4FF"/>
+        <CheckBox Content="Did you get rick rolled?" HorizontalAlignment="Left" Height="16.336" Margin="39.812,146.02,0,0" VerticalAlignment="Top" Width="179.703" Foreground="White" Background="#FF00FF0C"/>
+        <Slider HorizontalAlignment="Left" Height="20.792" Margin="32,177.208,0,0" VerticalAlignment="Top" Width="243.208"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.822" Margin="32,198,0,0" TextWrapping="Wrap" Text="Crap" VerticalAlignment="Top" Width="27.119" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.822" Margin="122.98,198,0,0" TextWrapping="Wrap" Text="Damn it" VerticalAlignment="Top" Width="43.812" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.822" Margin="226.198,198,0,0" TextWrapping="Wrap" Text="Son of a" VerticalAlignment="Top" Width="49.01" Foreground="White"/>
+    </Grid>
+</Window>
